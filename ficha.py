@@ -53,4 +53,4 @@ def ficha():
     print(f"Promedio: {promedio}")
     print(f"Promedio entero: {int(promedio)}")
     print("="*24)
-#ficha()
+
