@@ -29,6 +29,8 @@ def ficha():
     nota1=input()
     nota2=input()
     nota3=input()
+    suma=nota1+nota2+nota3
+    promedio = suma / 3
     print("""========================
     FICHA DEL ALUMNO
 ========================""")
@@ -50,9 +52,7 @@ def ficha():
     nota1=int(nota1)
     nota2=int(nota2)
     nota3=int(nota3)
-    suma=nota1+nota2+nota3
     print(f"Suma: {suma}")
-    promedio=suma/3
     print(f"Promedio: {promedio}")
     print(f"Promedio entero: {int(promedio)}")
     print("="*24)
