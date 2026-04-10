@@ -26,9 +26,9 @@ def ficha():
     #   - Cierre decorativo usando repetición de string ("=" * 24)
     nombre=input()
     email=input()
-    nota1=int(input())
-    nota2=int(input())
-    nota3=int(input())
+    nota1=input()
+    nota2=input()
+    nota3=input()
     print("""========================
     FICHA DEL ALUMNO
 ========================""")
@@ -47,6 +47,9 @@ def ficha():
     print(f"Nota 1: {nota1}")
     print(f"Nota 2: {nota2}")
     print(f"Nota 3: {nota3}")
+    nota1=int(nota1)
+    nota2=int(nota2)
+    nota3=int(nota3)
     suma=nota1+nota2+nota3
     print(f"Suma: {suma}")
     promedio=suma/3
